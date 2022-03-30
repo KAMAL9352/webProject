@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Numeber Tapping Game</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="container">
+      <div id="header">
+         <h1>Number Tapping Speed</h1>
+         <h2>Last Time</h2>
+          <p  id="dis" > milliseconds</p>
+          <form name="d">
+              <h3>Timer<h3>
+             <input type="text" size="4" name="d2"> <br><br>
+      
+Select Level<br><br>
+             <input type="button" value="easy" onclick="level1()">
+              <input type="button" value="medium" onclick="level2()">
+               <input type="button" value="hard" onclick="level3()"><br><br>
+              <input type="reset" onclick="resettimer(),load()"  value="play again"><br>
+          </form> 
+          <h3> Top 5 scores<h3>
+   <p id ="1"   onclick="a();"> show</p>
+ </div> 
+<div id="quad">
+<table id="tab">
+    <tr>
+        <td><div class="ract" onclick="change(this);"></div></td>
+        <td><div class="ract" onclick="change(this);"></div></td>
+        <td><div class="ract" onclick="change(this);"></div></td>
+        <td><div class="ract" onclick="change(this);"></div></td>
+       
+    </tr>
+    <tr>
+        <td><div class="ract" onclick="change(this);"></div></td>
+        <td><div class="ract" onclick="change(this);"></div></td>
+        <td><div class="ract" onclick="change(this);"></div></td>
+        <td><div class="ract" onclick="change(this);"></div></td>
+     
+    </tr>
+    <tr>
+        <td><div class="ract" onclick="change(this);"></div></td>
+        <td><div class="ract" onclick="change(this);"></div></td>
+        <td><div class="ract" onclick="change(this);"></div></td>
+        <td><div class="ract" onclick="change(this);"></div></td>
+
+    </tr>
+    <tr>
+        <td><div class="ract" onclick="change(this);"></div></td>
+        <td><div class="ract" onclick="change(this);"></div></td>
+        <td><div class="ract" onclick="change(this);"></div></td>
+        <td><div class="ract" onclick="change(this);"></div></td>
+        
+    </tr>
+    <tr>
+        <td><div class="ract" onclick="change(this);"></div></td>
+        <td><div class="ract" onclick="change(this);"></div></td>
+        <td><div class="ract" onclick="change(this);"></div></td>
+        <td><div class="ract" onclick="change(this);"></div></td>
+     
+    </tr>
+</table>
+</div>
+<script src="./script.js"></script>
+</body>
+</html> 

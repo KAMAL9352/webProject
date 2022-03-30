@@ -1,0 +1,62 @@
+body{
+     background-color: #d19469';
+     
+}
+
+.ract {
+     height: 80px;
+     width:110px;
+     background-color:red;
+     text-align:center;
+     font-size:50px;
+    border-radius:10px; 
+   }
+ .ract:hover{opacity:0.7;
+    }
+
+#container{
+     background-color:white;
+     height:50%;
+     max-width:480px;
+    margin:400px 300px 300px 160px;
+    border:4px solid ;
+    border-radius:30px;
+   box-shadow:5px 5px 5px black; }
+#header{
+  background-color:white;
+  height:40%;
+  width:100%;
+  text-align:center;
+}
+#quad{
+     width:95%;
+      height:55%;
+      margin:10px;
+      padding :5px;
+      box-shadow:inset 2px 2px 3px  darkred,
+      inset -2px -2px 3px darkred; 
+
+      border-radius:16px;}
+#tab{
+border-radius:16px;
+}
+form input[type="button"]{
+font-weight:bold;
+color:#fff;
+background-color:green;
+box-shadow:inset 2px 2px 3px  ligtgreen ,
+      inset -2px -2px 3px  green; 
+}
+form input[type="button"]:hover{
+background-color:#d45700;
+}
+form input[type="reset"]{
+font-weight:bold;
+color:#fff;
+background-color:blue;
+box-shadow:inset 2px 2px 3px ligtblue,
+      inset -2px -2px 3px darkblue; 
+}
+form input[type="reset"]:hover{
+background-color:#d45700;
+}            
